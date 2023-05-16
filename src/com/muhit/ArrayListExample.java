@@ -28,5 +28,6 @@ public class ArrayListExample {
         System.out.println(list);
         System.out.println("Change made");
         System.out.println(list.contains(321));
+        list.add(11);
     }
 }
