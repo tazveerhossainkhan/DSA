@@ -1,4 +1,4 @@
-package com.muhit;
+package com.muhit.Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
