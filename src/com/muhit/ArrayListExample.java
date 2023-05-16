@@ -25,9 +25,9 @@ public class ArrayListExample {
         list.add(1200);
         list.add(17772);
         list.add(33772);
-        System.out.println(list);
+        /*System.out.println(list);
         System.out.println("Change made");
         System.out.println(list.contains(321));
-        list.add(11);
+        list.add(11);*/
     }
 }
