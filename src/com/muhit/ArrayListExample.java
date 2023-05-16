@@ -17,7 +17,6 @@ public class ArrayListExample {
         list.add(122);
         list.add(142);
         list.add(12);
-        list.add(132);
         list.add(12);
         list.add(1278);
         list.add(162);
