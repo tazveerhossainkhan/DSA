@@ -1,6 +1,7 @@
 package com.muhit;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ArrayListExample {
     public static void main(String[] args) {
@@ -29,5 +30,13 @@ public class ArrayListExample {
         System.out.println("Change made");
         System.out.println(list.contains(321));
         list.add(11);
+        list.remove(10);
+        System.out.println(list);
+        ArrayList<Integer> list1 = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < 5; i++) {
+            list1.add(input.nextInt());
+        }
+        System.out.println(list1);
     }
 }
