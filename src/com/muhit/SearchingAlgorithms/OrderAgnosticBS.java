@@ -22,14 +22,16 @@ public class OrderAgnosticBS {
             {
                 if (arr[mid] > target) {
                     end = mid - 1;
-                } else if (arr[mid] < target) {
+                } else if (arr[mid] < target)
+                {
                     start = mid + 1;
                 }
             } else //Descending Order
             {
                 if (arr[mid] < target) {
                     end = mid - 1;
-                } else if (arr[mid] > target) {
+                } else if (arr[mid] > target)
+                {
                     start = mid + 1;
                 }
             }
@@ -37,3 +39,4 @@ public class OrderAgnosticBS {
         return -1;
     }
 }
+
